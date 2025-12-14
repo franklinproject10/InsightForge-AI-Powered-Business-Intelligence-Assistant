@@ -138,3 +138,30 @@ Vector Similarity Search — FAISS for efficient retrieval
 Document Processing
 PyPDF — PDF text extraction
 OpenAI Embeddings — Document vectorization
+
+
+Project Structure:
+
+InsightForge/
+│
+├── data/
+│   ├── records.xlsx                    # Business dataset
+│   └── PDFs/                           # Research papers and documents
+│       ├── AI_business_model_innovation.pdf
+│       ├── BI_approaches.pdf
+│       ├── Time_Series_Prediction.pdf
+│       └── Walmarts_sales_analysis.pdf
+│
+├── reports/                            # Generated reports (auto-created)
+│   ├── cleaned_patient_records_*.xlsx
+│   ├── data_quality_report_*.xlsx
+│   ├── statistical_summary_*.xlsx
+│   └── executive_summary_*.txt
+│
+├── InsightForge.ipynb                  # Main Jupyter Notebook
+├── requirements.txt                    # Python dependencies
+├── .env                                # API keys (not tracked in git)
+├── .gitignore                          # Git ignore rules
+├── LICENSE                             # 
+├── README.md                           # 
+└── PROJECT_SUMMARY.txt                 # 
