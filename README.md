@@ -164,4 +164,40 @@ InsightForge/
 ├── .gitignore                          # Git ignore rules
 ├── LICENSE                             # 
 ├── README.md                           # 
-└── PROJECT_SUMMARY.txt                 # 
+└── PROJECT_SUMMARY.txt                 #
+
+
+Want to run this project in your environment? Follow the following steps.
+
+Usage Section Explained:
+
+After installation, the Usage section shows how to actually run the project.
+
+Option 1: Jupyter Notebook (Recommended)
+
+jupyter notebook InsightForge.ipynb
+Purpose: Opens your notebook in a web browser for interactive, step-by-step execution.
+
+What happens:
+Launches Jupyter in your browser
+You can run each cell one by one if you are Jupyter Notebook
+See outputs, visualizations, and results immediately
+Modify code and experiment
+Best for: Learning, exploring, and understanding how the system works.
+
+Option 2: Python Script:
+Python
+from insightforge import InsightForge
+
+# Initialize the system
+forge = InsightForge(api_key="your_api_key")
+
+# Load documents
+forge.load_documents("data/PDFs/")
+
+# Analyze dataset
+forge.analyze_data("data/records.xlsx")
+
+# Query the system
+answer = forge.query("What are key trends in the data?")
+print(answer)
