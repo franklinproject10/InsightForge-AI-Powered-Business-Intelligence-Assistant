@@ -1,4 +1,4 @@
-# InsightForge: AI-Powered Business Intelligence Assistant
+# AI-Powered Business Intelligence Assistant using RAG and GPT-4
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green.svg)](https://openai.com/)
