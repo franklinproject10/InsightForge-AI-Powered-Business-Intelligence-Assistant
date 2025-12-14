@@ -120,3 +120,21 @@ Key benefits of implementing AI in business intelligence include:
    • AI business model innovation.pdf
    • BI approaches.pdf
 ======================================================================
+
+
+My Project Technology Core Stack:
+
+Python 3.10+ — Primary programming language
+OpenAI GPT-4 Turbo — Large language model for natural language processing
+FAISS — Vector database for semantic search
+Pandas & NumPy — Data manipulation and analysis
+Matplotlib & Seaborn — Data visualization
+
+AI/ML Components:
+
+Retrieval-Augmented Generation (RAG) — Context-aware AI responses
+Text Embeddings — text-embedding-ada-002 for semantic search
+Vector Similarity Search — FAISS for efficient retrieval
+Document Processing
+PyPDF — PDF text extraction
+OpenAI Embeddings — Document vectorization
