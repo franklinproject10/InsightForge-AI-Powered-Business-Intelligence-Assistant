@@ -90,7 +90,7 @@ InsightForge addresses these challenges by providing:
 
 ## Demo
 
-### Example Queries
+### Example Queries You Can Try
 
 ```python
 # Query the RAG system about business documents
@@ -99,3 +99,24 @@ query_rag_system("What are best practices for AI in business intelligence?")
 # Ask questions about your dataset
 ask_insightforge("What is the average age of patients?")
 ask_insightforge("Which columns have missing data?")
+
+
+======================================================================
+SAMPLE INSIGHTFORGE ANSWERS
+======================================================================
+Key benefits of implementing AI in business intelligence include:
+
+1. Automated Data Analysis: AI processes vast amounts of data faster 
+   than traditional methods, identifying patterns humans might miss.
+
+2. Predictive Insights: Machine learning enables forecasting and 
+   predictive analytics for better strategic planning.
+
+3. Real-time Decision Making: AI-powered BI systems provide instant 
+   insights for quick market response.
+
+======================================================================
+📎 Sources:
+   • AI business model innovation.pdf
+   • BI approaches.pdf
+======================================================================
